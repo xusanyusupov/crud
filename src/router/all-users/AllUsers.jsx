@@ -10,7 +10,7 @@ function AllUsers() {
   const dispatch = useDispatch()
 
   const handleDelete = (id) => {
-    dispatch(removeFromUser(id))  // Redux action orqali foydalanuvchini o'chirish
+    dispatch(removeFromUser(id))  
   }
 
   return (
