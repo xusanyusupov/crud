@@ -16,6 +16,11 @@
 .users__card h2{
     color: dodgerblue;
 }
+.users__actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .users__card button{
     padding: 6px 20px;
     background: crimson;
